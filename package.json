@@ -1,7 +1,7 @@
 {
 	"name": "react-beam",
 	"version": "0.1.0",
-	"description": "Send/receive context in React components.",
+	"description": "Send/receive context easily in React components.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
 	"keywords": [ "react", "context", "tree" ],
 	"repository": "izaakschroeder/react-beam",
@@ -20,6 +20,7 @@
 	"devDependencies": {
 		"eslint": "^0.21.0",
 		"babel-eslint": "^3.0.1",
+		"react": "^0.14.0-alpha1",
 		"mocha": "^2.2.4",
 		"istanbul": "^0.3.13",
 		"chai": "^2.2.0",

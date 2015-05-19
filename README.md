@@ -44,3 +44,15 @@ class Grandchild extends Component {
 const root = document.querySelector('#content');
 render(<Parent foo='hello' bar='world'/>, root);
 ```
+
+You can also specify property types explicitly.
+
+```javascript
+import { PropTypes, Component } from 'react';
+import { send } from 'react-beam';
+
+@send({ foo: PropTypes.object.isRequired });
+class App extends Component {
+
+}
+```

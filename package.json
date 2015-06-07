@@ -1,6 +1,6 @@
 {
 	"name": "react-beam",
-	"version": "0.1.0",
+	"version": "0.1.0-alpha1",
 	"description": "Send/receive context easily in React components.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
 	"keywords": [ "react", "context", "tree" ],
